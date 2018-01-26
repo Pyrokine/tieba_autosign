@@ -11,7 +11,7 @@ sum_success = 0
 fail_to_sign = ""
 
 session = requests.Session()
-session.cookies = http.cookiejar.LWPCookieJar("cookie2")
+session.cookies = http.cookiejar.LWPCookieJar("cookie")
 
 # POST请求头
 headers = {
