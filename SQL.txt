@@ -1,0 +1,2 @@
+# 储存信息的数据库结构
+CREATE TABLE userlist(id int PRIMARY KEY NOT NULL AUTO_INCREMENT, username nvarchar(30) NOT NULL, password varchar(128) NOT NULL, email varchar(30) default null, issign int default 0, isemail int default 0);
